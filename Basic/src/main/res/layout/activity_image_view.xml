@@ -102,7 +102,7 @@
             android:layout_alignLeft="@+id/textView9"
             android:layout_alignStart="@+id/textView9"
             android:layout_below="@+id/textView9"
-            android:text="Location Changed to :" />
+            android:text="Loc.changed :" />
 
         <TextView
             android:id="@+id/locationChanged"
@@ -114,7 +114,7 @@
             android:text="Loading..." />
 
     </RelativeLayout>
-    <com.ipsv2.android.sdk.kict.Navigation.BlueDotView
+    <com.kict.pocket.Navigation.BlueDotView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

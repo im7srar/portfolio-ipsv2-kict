@@ -1,4 +1,4 @@
-package com.ipsv2.android.sdk.kict;
+package com.kict.pocket;
 
 import android.Manifest;
 import android.app.Activity;
@@ -22,6 +22,8 @@ import android.util.Config;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.ipsv2.android.sdk.kict.R;
 
 public class QiblaView extends Activity {
 
@@ -205,6 +207,7 @@ public class QiblaView extends Activity {
         }
 
         public void onProviderEnabled(String provider) {
+
         }
 
         public void onStatusChanged(String provider, int status, Bundle extras) {

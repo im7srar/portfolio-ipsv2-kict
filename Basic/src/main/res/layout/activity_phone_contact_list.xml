@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kict.pocket.PhoneContactList">
+
+    <Spinner
+        android:id="@+id/amenities"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/title1"
+        android:layout_toLeftOf="@+id/office"
+        android:layout_toStartOf="@+id/office" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="IIUM Hotline"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/office"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/amenities" />
+
+    <ImageButton
+        android:id="@+id/amenities_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/call_btn"
+        android:layout_alignLeft="@+id/call_btn"
+        android:layout_alignStart="@+id/call_btn"
+        android:background="@drawable/amenities" />
+
+    <ImageButton
+        android:id="@+id/office_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/call_btn"
+        android:layout_alignEnd="@+id/call_btn"
+        android:layout_alignRight="@+id/call_btn"
+        android:background="@drawable/door_icon"
+        android:layout_marginRight="50dp"
+        android:clickable="false"
+        android:tint="@color/disable_image_button"/>
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@color/ia_blue"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Call"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/call_btn"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

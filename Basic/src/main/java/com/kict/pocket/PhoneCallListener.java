@@ -1,4 +1,4 @@
-package com.ipsv2.android.sdk.kict;
+package com.kict.pocket;
 
 import android.content.Context;
 import android.content.Intent;

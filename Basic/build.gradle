@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "com.indooratlas.android.sdk.examples"
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -51,16 +51,14 @@ android {
 
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile "com.indooratlas.android:indooratlas-android-sdk:2.5.2@aar"
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile 'com.google.android.gms:play-services-maps:8.1.0'
     compile 'com.google.maps.android:android-maps-utils:0.3.+'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.2.0'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.4.1'
     compile 'com.pubnub:pubnub-android:3.7.5'
-    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support:design:23.1.0'
     compile 'com.commit451:PhotoView:1.2.4'
-    // for Open Street Map support
-    compile 'org.osmdroid:osmdroid-android:5.6.4'
-    compile 'com.github.MKergall:osmbonuspack:6.2'
+    compile 'com.thefinestartist:finestwebview:1.2.7'
+    compile 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
 }

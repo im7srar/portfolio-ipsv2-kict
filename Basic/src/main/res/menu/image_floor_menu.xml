@@ -10,6 +10,14 @@
         android:title="Floor 2"/>
 
     <item
+        android:id="@+id/three"
+        android:title="Floor 3"/>
+
+    <item
+        android:id="@+id/four"
+        android:title="Floor 4"/>
+
+    <item
         android:id="@+id/five"
         android:title="Floor 5"/>
 

@@ -1,4 +1,4 @@
-package com.ipsv2.android.sdk.kict;
+package com.kict.pocket;
 
 import android.support.annotation.StringRes;
 
